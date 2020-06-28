@@ -1,4 +1,4 @@
-package solutionsHackerRank;
+
 import java.util.*;
 public class Angry_professor {
     public static void main(final String... args) {
