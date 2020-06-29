@@ -16,16 +16,10 @@ public class Birthday_chocolate {
         int flag=0;
         for(int i=0; i<=n-m; i++) {
             int result=0;
-        	for(int j=i; j<i+m; j++) {
-        		result+=s[j];        		
-        	}
-        	if(result==d) {
-        		flag++;
-        	}
-        }
-          
+        	for(int j=i; j<i+m; j++) result+=s[j];        		       	
+        	if(result==d) flag++;
+	}
         System.out.println(flag);
-        
      }
 }
 
